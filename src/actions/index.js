@@ -3,8 +3,8 @@ export const sendMessage = (message) => ({
     payload: { message },
   });
   
-  export const addFeedback = (feedback) => ({
-    type: 'ADD_FEEDBACK',
-    payload: feedback,
-  });
+export const addFeedback = (feedback) => ({
+type: 'ADD_FEEDBACK',
+payload: feedback,
+});
   
